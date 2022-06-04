@@ -1,0 +1,26 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.green.clicked{
+  background-color: green;
+}
+.red.clicked{
+  background-color: red;
+}
+.blue.clicked{
+  background-color: blue;;
+}
+.orange.clicked{
+  background-color: orange;
+}
+.purple.clicked{
+  background-color: purple;
+}
+.disabled{
+  pointer-events: none;
+}
